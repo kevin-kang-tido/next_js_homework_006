@@ -1,4 +1,4 @@
-about us import React from 'react'
+
 import {BiGlobe, BiLogoFacebook, BiLogoTelegram, BiLogoYoutube, BiPhone, BiPointer, BiShowAlt} from "react-icons/bi";
 import {FaTerminal} from "react-icons/fa6";
 import Image from "next/image";
@@ -7,10 +7,11 @@ import {List} from "flowbite-react";
 import {BsChat} from "react-icons/bs";
 import {FaMapMarker} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
+import "../app/globals.css";
 export default function Aboutpage() {
     return (
-        <div className='bg-gray-100'>
-      <div className=" container mx-auto grid grid-cols-1 gap-4 my-8 ">
+    <div className='bg-gray-100 m-12 '>
+      <div className=" container mx-auto grid grid-cols-1 gap-4 my-8">
           <div className="bg-white p-6 grid grid-cols-1 gap-2">
               <h1 className="flex items-center text-xl font-bold tracking-[0.25rem]">
                   <FaTerminal className='text-blue-900'/>

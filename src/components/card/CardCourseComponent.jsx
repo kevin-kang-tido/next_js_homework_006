@@ -3,6 +3,7 @@ import React from "react";
 // import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { FaClock } from "react-icons/fa";
 import { FaLayerGroup } from "react-icons/fa";
+import "./app/globals.css";
 
 export default function CardCourseComponent() {
   // const [liked, setLiked] = React.useState(false);

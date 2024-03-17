@@ -26,7 +26,7 @@ export default function NavbarComponent() {
           <Navbar.Link href="/NewIT" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             IT News
           </Navbar.Link>
-          <Navbar.Link href="/" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/job_opportities" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             Job Opportunity
           </Navbar.Link>
           <Navbar.Link href="/about_us" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
