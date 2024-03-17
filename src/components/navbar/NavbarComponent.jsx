@@ -14,22 +14,22 @@ export default function NavbarComponent() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className='p-4 font-bold mt-4 lg:mt-0 text-center'>
-          <Navbar.Link href="#" className='text-white hover:text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/" className='text-white hover:text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             Home
           </Navbar.Link>
-          <Navbar.Link href="#" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/Enroll" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             Enroll
           </Navbar.Link>
-          <Navbar.Link href="#" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/Course" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             Course
           </Navbar.Link>
-          <Navbar.Link href="#" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/NewIT" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             IT News
           </Navbar.Link>
-          <Navbar.Link href="#" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             Job Opportunity
           </Navbar.Link>
-          <Navbar.Link href="#" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
+          <Navbar.Link href="/about_us" className='text-white text-lg font-bold block mb-4 lg:inline-block lg:mb-0 mr-4'>
             About Us
           </Navbar.Link>
         </Navbar.Collapse>

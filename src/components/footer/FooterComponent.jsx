@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 
 export default function FooterComponent() {
   return (
-    <Footer container className="rounded-none fixed bottom-0 left-0 right-0 " style={{ backgroundColor: '#253C95'}}>
+    <Footer container className="rounded-none" style={{ backgroundColor: '#253C95'}}>
       <div className="w-full">
         <div className=" mx-auto p-0" width={80}>
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
