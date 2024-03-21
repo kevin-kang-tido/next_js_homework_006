@@ -1,7 +1,7 @@
 import CardCorusepage from '@/components/card/CardCorusepage'
 import CardCourseContent from '@/components/card/CardCourseContent'
 import UesFullCardComponent from '@/components/card/UesFullCardComponent'
-import "../app/globals.css";
+// import "../app/globals.css";
 
 import React from 'react'
 
@@ -15,7 +15,6 @@ export default function Jobpage() {
         <UesFullCardComponent/>
         <UesFullCardComponent/>
         <UesFullCardComponent/>
-
        </div>
       </div>  
    </>

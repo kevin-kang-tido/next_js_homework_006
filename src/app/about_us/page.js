@@ -7,9 +7,9 @@ import {List} from "flowbite-react";
 import {BsChat} from "react-icons/bs";
 import {FaMapMarker} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
-import "../app/globals.css";
+// import "../app/globals.css";
 export default function Aboutpage() {
-    return (
+    return (    
     <div className='bg-gray-100 m-12 '>
       <div className=" container mx-auto grid grid-cols-1 gap-4 my-8">
           <div className="bg-white p-6 grid grid-cols-1 gap-2">

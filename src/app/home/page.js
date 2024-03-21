@@ -1,9 +1,7 @@
+// "use client"
 import CardCorusepage from '@/components/card/CardCorusepage'
 import CardCourseContent from '@/components/card/CardCourseContent'
 import CarouselComponent from '@/components/causels/CaroselComponent'
-import FooterComponent from "@/components/footer/FooterComponent";
-import UseFullCaroselComponents from '@/components/causels/UseFullCaroselComponent'
-import "../app/globals.css";
 
 import React from 'react'
 
@@ -11,20 +9,18 @@ export default function Homepage() {
   return (
     <div>
       <CarouselComponent/>
-       <h2 className='text-4xl text-center m-12 font-bold'>Course</h2>
-       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 item-center justify-center'>
-        <CardCorusepage/>
-        <CardCorusepage/>
+       <h2 className='text-2xl text-center font-bold text-blue-700'>Course</h2>
+       <div className='flex flex-wrap bg-yellow-200 justify-center gap-2'>
         <CardCorusepage/>
         <CardCorusepage/>
         <CardCorusepage/>
         <CardCorusepage/>
        </div>
+  
        <h2 className='text-4xl text-center font-bold'>USSFULL COURSES</h2>
-        {/* <UseFullCaroselComponents/> */}
+
      <div className="container mx-auto p-14"> 
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 item-center justify-center'>
-        <CardCourseContent/>
+      <div className=' flex flex-wrap bg-yellow-200 justify-center gap-2 m-12'>
         <CardCourseContent/>
         <CardCourseContent/>
         <CardCourseContent/>
